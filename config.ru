@@ -1,0 +1,2 @@
+require 'chimprise'
+run Chimprise

@@ -1,0 +1,23 @@
+lists:
+  # A MailChimp list id
+  d8277e195f:
+    name: Trade Show Newsletter
+    
+    # This is used to authenticate MailChimp. Set it to something unique to
+    # prevent a third party from manipulating your Highrise data.
+    key: abc123
+    
+    # These tags will be added to the person in Highrise upon subscribing.
+    tags:
+      - 79ec02ec5bf8bf5c9e6d5c780f715b5a
+    
+    # If a list of interests is provided, a person will only be added to
+    # Highrise if one or more interests match.
+    interests:
+      - Exhibiting
+
+
+# Enter your Highrise account information here.
+highrise:
+  site: https://your_name_here.highrisehq.com/
+  user: your_api_key_here
